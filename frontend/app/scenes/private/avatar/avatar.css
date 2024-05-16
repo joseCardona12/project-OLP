@@ -1,0 +1,11 @@
+.content-avatars{
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+.content-avatars>div.avatars-item{
+    flex-basis: calc((100% - 30px) / 5);
+    height: 250px;
+    border: 1px solid var(--gray-dark-color);
+
+}
